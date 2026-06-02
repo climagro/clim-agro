@@ -17,10 +17,12 @@ const navItems = [
 function Logo() {
   return (
     <Link to="/" className="flex items-center gap-2.5 group">
-      <span className="grid place-items-center w-9 h-9 rounded-full bg-forest text-cream font-display font-bold text-lg group-hover:bg-leaf transition">
-        C
-      </span>
-      <span className="font-display font-bold text-xl text-forest tracking-tight">
+      <img
+        src="/logo.png"
+        alt="CLIM-AGRO LTD logo"
+        className="h-11 w-auto"
+      />
+      <span className="font-display font-bold text-xl text-forest tracking-tight hidden sm:inline">
         CLIM-AGRO<span className="text-leaf"> LTD</span>
       </span>
     </Link>
@@ -104,7 +106,12 @@ export default function Layout() {
       <footer className="bg-forest text-cream/90 mt-20">
         <div className="container-x py-14 grid gap-10 md:grid-cols-3">
           <div>
-            <span className="font-display font-bold text-2xl text-cream">
+            <img
+              src="/logo.png"
+              alt="CLIM-AGRO LTD logo"
+              className="h-16 w-auto mb-3 bg-cream/95 rounded-xl p-1.5"
+            />
+            <span className="font-display font-bold text-2xl text-cream block">
               CLIM-AGRO LTD
             </span>
             <p className="mt-3 text-sm text-cream/70 max-w-xs leading-relaxed">

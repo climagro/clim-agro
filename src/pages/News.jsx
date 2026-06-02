@@ -75,11 +75,6 @@ export default function News() {
             </Link>
           ))}
         </div>
-
-        <p className="text-ink/50 text-sm mt-10 max-w-3xl">
-          To publish a new update: open <code>src/data/site.js</code>, copy a news block,
-          fill in the date/title/text, place it at the top of the list, then push to GitHub.
-        </p>
       </section>
     </>
   );

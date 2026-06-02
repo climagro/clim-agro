@@ -43,6 +43,11 @@ export default function Investors() {
           <p className="eyebrow mb-3">Current traction</p>
           <h2 className="font-display text-3xl text-forest">What we've already built</h2>
         </div>
+        <img
+          src="/photos/capacity-building-team.jpg"
+          alt="CLIM-AGRO at the Smart Waste Collection and Management initiative with government and partners"
+          className="w-full rounded-3xl border border-forest/10 shadow-sm mb-6"
+        />
         <div className="grid sm:grid-cols-2 gap-3">
           {investors.traction.map((t) => (
             <div key={t} className="flex items-start gap-3 bg-cream rounded-xl px-5 py-4 border border-forest/10">

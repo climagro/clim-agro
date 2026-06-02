@@ -107,7 +107,7 @@ export const modelSteps = [
 export const projects = [
   {
     title: "BSF (Black Soldier Fly) Production Unit",
-    img: "https://images.unsplash.com/photo-1516467508483-a7212febe31a?q=80&w=1200&auto=format&fit=crop",
+    img: "/photos/bsf-hero.jpg",
     objective:
       "Convert organic waste into high-protein animal feed and organic fertilizer.",
     outcomes: [
@@ -123,7 +123,7 @@ export const projects = [
   },
   {
     title: "Poultry Farming (Exotic & Indigenous)",
-    img: "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?q=80&w=1200&auto=format&fit=crop",
+    img: "/photos/poultry-flock.jpg",
     objective:
       "Produce affordable, high-quality eggs and meat using sustainable feed sources.",
     outcomes: [
@@ -134,7 +134,7 @@ export const projects = [
   },
   {
     title: "Rabbit Farming",
-    img: "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?q=80&w=1200&auto=format&fit=crop",
+    img: "/photos/rabbits-staff-1.jpg",
     objective:
       "Provide an affordable and fast-reproducing source of protein and income.",
     outcomes: [

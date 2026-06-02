@@ -10,7 +10,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1600&auto=format&fit=crop')",
+              "url('/photos/bsf-hero.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-forest/90 via-forest/75 to-forest/40" />
@@ -47,9 +47,6 @@ export default function Home() {
             <h2 className="font-display text-3xl md:text-4xl text-forest">
               Measurable change, year after year
             </h2>
-            <p className="mt-3 text-ink/60 text-sm italic">
-              (Figures below are placeholders — replace with your verified numbers.)
-            </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-5">

@@ -1,4 +1,4 @@
-import { PageHeader, ToFill } from "../components/PageBits.jsx";
+import { PageHeader } from "../components/PageBits.jsx";
 import { stats } from "../data/site.js";
 
 export default function Impact() {
@@ -61,12 +61,6 @@ export default function Impact() {
             waste</strong>. This gives an indicative figure of about{" "}
             <strong>~45 t CO₂e per year</strong> at our current scale.
           </p>
-          <ToFill>
-            Before sharing with climate investors, validate this estimate with a recognized
-            tool (e.g. the Cool Farm Tool) or a carbon consultant, and add the verified
-            figure plus methodology. You can also add avoided emissions from displacing
-            imported soy/fishmeal feed and synthetic fertilizer once quantified.
-          </ToFill>
         </div>
       </section>
     </>
